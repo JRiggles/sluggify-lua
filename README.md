@@ -8,7 +8,7 @@ The following manipluations are performed in this order:
 4. replace multiple consecutive dashes `---` with a single dash `-`
 5. remove leading dashes, e.g. `-Gengar-` becomes `Gengar-`
 6. remove trailing dashes, e.g. `Gengar-` becomes `Gengar`
-7. convert to lowercase, e.g `Gengar` becomes `gengar`
+7. convert to lowercase, e.g. `Gengar` becomes `gengar`
 
 ## Dependencies
 This module relies on the Lua `utf-8` library which *should* be built into Lua, but isn't always. You've been warned!
